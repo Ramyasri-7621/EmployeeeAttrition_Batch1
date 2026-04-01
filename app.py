@@ -3,9 +3,9 @@ import joblib
 import pandas as pd
 import numpy as np
 #Load the model and label encoder
-model = joblib.load("employee_attrition_model.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
-feature_columns = joblib.load("feature_columns.pkl")
+model = joblib.load("assets\employee_attrition_model.pkl")
+label_encoder = joblib.load("assets\label_encoder.pkl")
+feature_columns = joblib.load("assets\feature_columns.pkl")
 st.title("Employee Attrition Prediction")
 st.markdown("Enter the employee details to predict whether they are" "likely to leave the company.")
 #create input fields for the features
